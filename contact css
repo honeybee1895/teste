@@ -1,0 +1,40 @@
+@charset"utf-8";
+body{
+	background-image: linear-gradient( lightblue, white);
+	font-family: 'Bad Script', cursive;
+}
+#bg{
+	margin-top: 0px;
+	margin-left: 0px;
+	z-index: -1;
+}
+
+#photo-name a{
+	text-decoration: none;
+	color: black;
+
+
+}
+
+#photo{
+	margin-top: 60px;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#photo img{
+	border:white;
+	border-radius: 150px;
+}
+
+#icons{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+ #icons div{
+ 	padding-left:35px ;
+ 	padding-right:35px;
+ 	padding-bottom: 20px;
+ }

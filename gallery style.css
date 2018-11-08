@@ -1,0 +1,111 @@
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_image_gallery*/
+
+@charset"utf-8";
+body{
+	background-image: linear-gradient( lightblue, white);
+	font-family: 'Bad Script', cursive;
+}
+
+#photo-name a{
+	text-decoration: none;
+	color: black;
+}
+#photo{
+	margin-top: 60px;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#photo img{
+	border:white;
+	border-radius: 150px;
+}
+
+#icons{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+ #icons div{
+ 	padding-left:35px ;
+ 	padding-right:35px;
+ 	padding-bottom: 20px;
+
+ }
+
+ #name{
+ 	text-align: center;
+ 	padding-top: 0px;
+ 	padding-bottom: 0px;
+
+ }
+ /*//////////////////////////*/
+
+
+.categoria{
+	position: relative;
+	margin-bottom: 10px;
+}
+.nome-categoria{
+	margin-left: 10px;
+	position: absolute;
+	border: solid;
+	bottom: 0px;
+	background-color: white;
+
+}
+
+#categorias {
+	display:inline-block;
+	column-count: 3;
+	background-color: white;
+	border: solid 20px white;
+}
+#categorias a{
+	text-decoration: none;
+	color: black	;
+}
+
+#categorias div h2{
+	padding-left: 10px;
+	padding-right: 10px;
+	position: ;
+}
+
+
+
+#imagesbox{
+	display:flex;
+	justify-content: center;
+	
+}
+
+#images{
+	display:inline-block;
+	column-count: 3;
+	column-gap: 20px;
+	width:1200px;
+	background-color:white;
+	border:solid white 20px;
+
+
+}
+#images img{
+	width:100%;
+	margin-bottom:20px;
+}
+/*SE a janela estiver menor que 1000px fica com menos uma coluna*/
+@media screen and (max-width:800px){
+	#images{
+		column-count:2;
+		width:680;
+	}
+}
+/*SE a janela estiver menor que 680px fica com menos uma coluna*/
+@media screen and (max-width:800px){
+	#images{
+		column-count:1;
+		width:340px;
+	}
+}

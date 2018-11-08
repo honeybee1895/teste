@@ -1,0 +1,9 @@
+@charset"utf-8";
+body{
+	background-image: linear-gradient( #C5E5F8,white, #ffa822);
+	font-family: 'Bad Script';
+
+}
+#name{
+	color:black;
+}

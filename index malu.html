@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+	<meta charset= "UTF-8">
+	<title> Malu Fernandes </title>
+
+	<link href="css index.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+</head>
+
+<body>
+	<!---Cabeçalho---->
+	<div id="bg">
+	<img src="clouds.png" class="responsive" width="100%"> 
+
+	<div id="photo-name" width="200">
+			
+		<a href="index malu.html">
+		<div id="photo"> 
+			<img src="mainme.jpg" alt="A segunda imagem" width=200>
+		</div> 
+
+		<div id="name"> 
+			<h1>  Malu Fernandes </h1>
+		</div>
+	</div>
+
+	<div id="icons">
+
+		<div id="Galery">
+			<a href="gallery malu.html"> <img src="gallery.png" alt="Link para a página inicial" width=40>  </a> 
+		 </div>
+
+		<div id="About"> 
+			<a href="about malu.html"> <img src="me.png" alt="Link para a página inicial" width=40>   </a> 
+		</div>
+
+		<div id="Contact">
+			<a href="contact malu.html"> <img src="phone.png" alt="Link para a página inicial" width=40>  </a>
+		 </div>
+
+	</div>
+
+	<div id="imagesbox">
+		<div id="images"> 
+			<img src="img1.jpg" alt="A primeira imagem" >
+
+			<img src="img2.jpg" alt="A segunda imagem" >
+
+			<img src="img3.jpg" alt="A segunda imagem" >
+
+			<img src="mainme.jpg" alt="A segunda imagem" >
+
+			<img src="img1.jpg" alt="A primeira imagem" >
+
+			<img src="img2.jpg" alt="A segunda imagem" >
+
+			<img src="img3.jpg" alt="A segunda imagem">
+
+			<img src="mainme.jpg" alt="A segunda imagem">
+	</div>
+</div>
+
+<script>
+
+function getStylesheet() {
+      var currentTime = new Date().getHours();
+      if (0 <= currentTime&&currentTime < 5) {
+       document.write("<link rel='stylesheet' href='night.css' type='text/css'>");
+      }
+      if (5 <= currentTime&&currentTime < 10) {
+       document.write("<link rel='stylesheet' href='morning.css' type='text/css'>");
+      }
+      if (10 <= currentTime&&currentTime < 17) {
+       document.write("<link rel='stylesheet' href='main.css' type='text/css'>");
+      }
+      if (17 <= currentTime&&currentTime <= 24) {
+       document.write("<link rel='stylesheet' href='night.css' type='text/css'>");
+      }
+}
+
+getStylesheet();
+
+</script>
+
+<noscript><link href="main.css" rel="stylesheet"></noscript>
+
+</body>

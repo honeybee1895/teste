@@ -1,0 +1,70 @@
+@charset"utf-8";
+body{
+	background-image: linear-gradient(to bottom, lightblue, white);
+	font-family: 'Bad Script', cursive;
+}
+/*Cabeç~lho */
+
+#photo-name a{
+	text-decoration: none;
+	color: black;
+}
+
+#photo{
+	margin-top: 60px;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#photo img{
+	border:white;
+	border-radius: 150px;
+}
+
+#icons{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+ #icons div{
+ 	padding-left:35px ;
+ 	padding-right:35px;
+ 	padding-bottom: 20px;
+
+ }
+
+ #name{
+ 	text-align: center;
+ 	padding-top: 0px;
+ 	padding-bottom: 0px;
+
+ }
+/*///////////////////*/
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+ #area{
+	 columns: 2;
+	justify-content: center;
+ 	border: solid white;
+ 	}
+
+#mypicture{
+	width: 250px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+#mypicture img{ /* FOto prncipal */
+	border:white;
+	border-radius: 250px;
+    border: 1px solid black;
+
+}
+
+ #text{
+ 	
+ 	padding-left: 50px;
+ }
